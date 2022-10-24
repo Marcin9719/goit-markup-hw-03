@@ -1,0 +1,309 @@
+
+
+/*zmienne*/
+:root {
+    --dark-color:  #000000;
+    --black-color: #212121;
+    --main-color:  #2196F3; 
+    --grey-color:  #757575;
+    --adress-color: rgba(255, 255, 255, 0.6);
+    --button_text-color: #FFFFFF;
+}
+
+body { 
+font-family: "Roboto", sans-serif; 
+color: var(--black-color);
+font-size: 400;
+}
+
+.logoName1{
+font-family: 'Raleway';
+font-size: 26px;
+font-weight: 700;
+line-height: 1,19;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--main-color);
+text-decoration: none;
+}
+
+.logoFooter1{
+ font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--main-color);
+    text-decoration: none;
+    }   
+
+.logoName2{
+font-family: 'Raleway';
+font-size: 26px;
+font-weight: 700;
+line-height: 1,19;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--dark-color);
+text-decoration: none;
+}
+
+.logo{text-decoration:none;}
+
+.logoFooter2{
+font-family: 'Raleway';
+font-size: 26px;
+font-weight: 400;
+line-height: 1.38;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--button_text-color);
+text-decoration: none;
+}
+
+.logo3{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: var(--button_text-color);
+    background-color: #2f303a;
+    text-decoration: none;
+    }
+
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.27;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.title2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+
+.button{
+font-family: inherit;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--black-color);
+text-decoration: none;
+}
+
+.button2{
+font-family: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: center;
+text-decoration: none;
+}
+
+.button3{
+font-family: inherit;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.875;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--button_text-color);
+background: var(--main-color);
+text-decoration: none;
+}
+
+.adress{
+font-family: normal;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--grey-color);
+text-decoration: none;
+}
+
+.adress2{
+font-family: normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--buttuon_text-color);
+text-decoration: none;
+}
+
+.adress3{
+font-family: normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--adress-color);
+text-decoration: underline;
+}
+
+.adress4{
+font-family: normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--adress-color);
+text-decoration: none;
+}
+
+.h3 {
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+text-align: left;
+color: var(--black-color);
+text-decoration: none;
+}
+
+.h3_v2 
+{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--black-color);
+    text-decoration: none;
+
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.work{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    text-align: left;
+   color: var(--grey-color);
+   text-decoration: none;
+}
+
+.p{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.87;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--grey-color);
+text-decoration: none;
+}
+
+
+.p1{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--buttuon_text-color);
+text-decoration: none;
+}
+
+.p2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--grey-color);
+    text-decoration: none;
+    }
+
+
+.a{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+color: var(--black-color);
+text-decoration: none;   
+}
+
+.a:hover{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--main-color);
+    text-decoration: underline;   
+    }
+    
+
+.a2{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+color: var(--main-color);
+text-decoration: none;
+}
+.a2:hover{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--main-color);
+    text-decoration: underline;
+    }
+
+.interactive-white{
+background-color: #F5F4FA;
+}
+
+.interactive-white:hover{
+background-color: violet;
+}
+
+.interactive-blue{
+background-color: var(--main-color)
+}
+
+.interactive-blue:hover{
+background-color: grey;
+}
+
+.interactive-contact{
+color: var(--grey-color)
+}
+
+.interactive-contact:hover{
+color: red
+}
