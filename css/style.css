@@ -1,5 +1,4 @@
 
-
 /*zmienne*/
 :root {
     --dark-color:  #000000;
@@ -16,6 +15,49 @@ color: var(--black-color);
 font-size: 400;
 }
 
+.container{
+width: 1200px;
+margin: auto;
+}
+
+
+.headerWrapper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+
+nav ul{
+display: flex;
+}
+
+nav ul li{
+padding-left: 15%;
+list-style-type: none;
+}
+
+.headerContact{
+width: 25%;
+}
+
+.headerContact ul li{
+display: flex;
+padding-left: 15%;
+list-style-type: none;
+}
+
+.headerContact ul li:hover{
+text-decoration: underline;
+}
+
+.buttons{
+display: inline;
+
+}
+
+
 .logoName1{
 font-family: 'Raleway';
 font-size: 26px;
@@ -25,6 +67,7 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--main-color);
 text-decoration: none;
+float:left;
 }
 
 .logoFooter1{
@@ -36,6 +79,7 @@ text-decoration: none;
     text-align: left;
     color: var(--main-color);
     text-decoration: none;
+    float:left;
     }   
 
 .logoName2{
@@ -47,9 +91,13 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--dark-color);
 text-decoration: none;
+float:left;
 }
 
-.logo{text-decoration:none;}
+.logo{
+text-decoration:none;
+padding-left: 10%;
+}
 
 .logoFooter2{
 font-family: 'Raleway';
@@ -60,6 +108,7 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--button_text-color);
 text-decoration: none;
+float:left;
 }
 
 .logo3{
@@ -105,6 +154,7 @@ text-align: center;
 color: var(--black-color);
 text-decoration: none;
 }
+
 
 .button2{
 font-family: inherit;
@@ -298,12 +348,4 @@ background-color: var(--main-color)
 
 .interactive-blue:hover{
 background-color: grey;
-}
-
-.interactive-contact{
-color: var(--grey-color)
-}
-
-.interactive-contact:hover{
-color: red
 }
