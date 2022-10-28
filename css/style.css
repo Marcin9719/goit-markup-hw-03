@@ -28,7 +28,7 @@ justify-content: space-between;
 align-items: center;
 border-bottom-style: solid;
 border-bottom-width: 1px;
-margin-left: 5%;
+/* margin-left: 5%; */
 }
 
 nav ul{
@@ -81,7 +81,7 @@ text-decoration: underline;
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: left;
+    text-align: center;
     color: var(--button_text-color);
     background-color: #2f303a;
     text-decoration: none;
@@ -223,9 +223,9 @@ margin-left: 5%;
 }
 
 
-.logo3{
+/* .logo3{
    
-    }
+    } */
 
 
 .title{
