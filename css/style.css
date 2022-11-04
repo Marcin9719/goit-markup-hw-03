@@ -1,4 +1,3 @@
-
 /*zmienne*/
 :root {
     --dark-color:  #000000;
@@ -40,7 +39,7 @@ header{
 	font-family: 'Raleway';
 	font-size: 26px;
 	font-weight: 700;
-	line-height: 1,19;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	text-align: left;
 	color: var(--main-color);
@@ -49,10 +48,10 @@ header{
 }
 
 .logo span:nth-child(2){
-	font-family: 'Raleway';
+	font-family: 'Oleo Script';
 	font-size: 26px;
 	font-weight: 700;
-	line-height: 1,19;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	text-align: left;
 	color: var(--dark-color);
@@ -92,6 +91,9 @@ nav li a{
 nav ul li a:hover{
 	color: var(--main-color);
 }
+.marked{
+	color: var(--main-color);
+}
 /* *****************  dane kontaktowe  **********************/
 
 .headerContact{
@@ -109,7 +111,7 @@ nav ul li a:hover{
 	
 }
 
-	
+
 	
 	
 .headerContact ul li a{
@@ -123,6 +125,8 @@ nav ul li a:hover{
 	color: var(--main-color); 
 	text-decoration: underline;
 }
+
+
 /* *****************  hasło z przycskiem  **********************/
 
 
@@ -146,17 +150,21 @@ nav ul li a:hover{
 	text-align:center;
 	padding-inline:35%;
 	padding-top:5%;
+	font-weight:900px;
+	line-height:1.36;
+
 }
+
 
 .buttons{
 	display:inline-block;
-	margin-left:45%;
+	margin-left:700px;
 }
 
 .buttons button {
-	font-family: inherit;
+	font-family: Roboto;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	text-align: center;
@@ -188,11 +196,12 @@ nav ul li a:hover{
 	list-style-type: none;
 }
 .lorem h3{
-	font-size: 18px;
-	line-height: 2.0;
-	letter-spacing: 0.06em;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
 	text-align: left;
 	color: var(--black-color);
+	margin-top:94px;
 }
 
 .lorem p{
@@ -205,6 +214,8 @@ nav ul li a:hover{
     text-decoration: none;
 	}
 	
+/* *****************  our goal  **********************/	
+	
 .title{
     font-size: 36px;
     font-weight: 700;
@@ -215,7 +226,7 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-/* *****************  our goal  **********************/
+
 
 .ourGoal ul{
 	width:1200px;
@@ -225,7 +236,7 @@ nav ul li a:hover{
 	align-items: center;
 	margin:auto;
 	padding: 0; 
-	margin: 0;
+	margin-bottom:94px;
 	
 	
 }
@@ -239,6 +250,11 @@ nav ul li a:hover{
 .team{
 	padding-top:30px;
 	background-color:#F5F5F5;
+}
+
+.team h2{
+	letter-spacing:0.03em;
+	line-height:1.16;
 }
 .container-ramki{
 
@@ -271,27 +287,46 @@ margin-right:5%;}
 	text-align:center;
 }
 
+.name{
+	font-weight:500;
+	line-height: 1.17;
+	
+	
+}
+
+.work{
+	color: var(--grey-color);
+	line-height: 1.17;
+}
+
 /* *****************  footer **********************/
 
 footer{
 	
 	background-color:#2F303A;
 	display:block;
+	padding:60px;
+}
+.footerWrapper{
+	padding:60px;
 }
 
 .logoFooter{
-	height:50px;
+
 	display:block;
+	
+	
 }
 
 .logoFooter a{
 	display:block;
+	
 }
 .logoFooter span:nth-child(1){
 	font-family: 'Raleway';
 	font-size: 26px;
 	font-weight: 700;
-	line-height: 1,19;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	text-align: left;
 	color: var(--main-color);
@@ -300,7 +335,7 @@ footer{
 }
 
 .logoFooter span:nth-child(2){
-	font-family: 'Raleway';
+	font-family: 'Oleo Script';
 	font-size: 26px;
 	font-weight: 400;
 	line-height: 1.19;
@@ -311,7 +346,16 @@ footer{
 	float:left;
 }
 
-footer p{color:white;}
+.addressFooter{
+	
+	}
+	
+address {
+	color: var(--button_text-color);
+	font-size:14px;
+	line-height:1.71;
+	
+}
 
 .interactive-contact{
 	color: var(--adress-color);
@@ -321,25 +365,42 @@ footer p{color:white;}
 /*************** portfolio ***************************/
 
 .headerWrapper{
-	border-bottom: 2px solid var(--grey-color);
+	border-bottom: 1px solid #ECECEC;
+	margin-bottom:94px;
 }
+
 
 .portfolioButtons ul {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .portfolioButtons ul li{
 	list-style-type: none;
-	margin-right:10px;
+	margin-right:8px;
+	
+	
 	
 }
 
 .portfolioButtons ul li button{
 	
 	padding:5px;
+	border: none;
+	border-radius:4px;
+	font-weight:500px;
+	font-size:16px;
+	line-height:1.61;
+	font-family:Roboto;
+	letter-spacing:0.03em;
+}
+.buttonWszystkie{
+	background-color: var(--main-color);
+	color: var(--button_text-color);
+
 }
 
 .portfolioButtons ul li button:hover{
@@ -348,22 +409,41 @@ footer p{color:white;}
 
 .images{
 	
+	margin-top:50px;
+	margin-inline:auto;
 	
 	
 }
+.imageFrame{
+	display:flex;
+	
+	
+	width:30%;}
 
 .images ul{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-left:0;
+	padding:0;
+	box-sizing: content-box;
+	
 }
 
 .images ul li{
 	width:30%;
 	list-style-type: none;
+	margin-left:0;
+	padding-left:0;
+	box-sizing: content-box;
+	border: 3px solid #ECECEC;
+	margin-bottom:15px;
 }
 
 .interactive-blue{
 	color: var(--main-color);
 }
+
+.h3WWW, .KindOfDevice{
+	margin-left:20px;
