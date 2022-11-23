@@ -483,6 +483,7 @@ address {
 .h3WWW{
 	padding-left:24px;
 	padding-top: 20px;
+	display: block;
 	
 }
 .KindOfDevice{
@@ -493,7 +494,6 @@ address {
 .portfolioFrame{
 	display: block;
 	border: 1px solid #ECECEC; 
-	
 	border-top-style:none;
 	margin: 0;
 	padding: 0;
