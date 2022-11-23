@@ -177,7 +177,7 @@ nav ul li a:hover{
 .buttons{margin-top: 40px;}
 
 .buttons button {
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.14;
@@ -367,6 +367,8 @@ footer{
 .logoFooter{
 	margin-bottom: 20px;
 }
+
+
 address {
 	color: var(--button_text-color);
 	font-size:14px;
@@ -396,8 +398,9 @@ address {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap:30px;
+	gap:30px 8px;
 	margin-top: 94px;
+	
 	
 }
 
@@ -419,25 +422,32 @@ address {
 	font-weight:500px;
 	font-size:16px;
 	line-height:1.61;
-	font-family:Roboto;
+	font-family: 'Roboto';
 	letter-spacing:0.03em;
 	padding-block: 6px;
 	padding-inline: 22px;
+
 }
+
+.portfolioButtons ul li button:hover{
+	background-color:var(--main-color);
+	color: var(--button_text-color)
+}
+
+
 .buttonWszystkie{
 	background-color: var(--main-color);
 	color: var(--button_text-color);
 
 }
 
-.portfolioButtons ul li button:hover{
-	background-color:var(--main-color);
-}
+
+
 
 .images{
 	 
 	margin-inline:auto;
-	
+	display:block
 	
 }
 .imageFrame{
